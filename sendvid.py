@@ -1,7 +1,11 @@
+import flask
+import os
+from flask import send_from_directory
 from telethon import TelegramClient, events
 import asyncio
 from pytube import YouTube
-import os
+
+app = flask.Flask(__name__)
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
 session_name = 'send_name'
@@ -47,7 +51,7 @@ async def download_audio(link):
 api_id = 27185648
 api_hash = '33d43db8c209893c4ff7cbf2ecccb8b4'
 bot_token = '6814352675:AAHqMqfgrSuUEJh-2SdkPhJr1EZMci4-YHE'
-app = TelegramClient(session_file_path, api_id, api_hash).start(bot_token=bot_token)
+telegram_app = TelegramClient(session_file_path, api_id, api_hash).start(bot_token=bot_token)
 
 async def main(event, current_directory):
     print('Main function called.')
@@ -57,7 +61,7 @@ async def main(event, current_directory):
     print(f'Sender User ID: {sender_user_id}')
 
     if sender_user_id:
-        await app.send_message(sender_user_id, 'Audio downloader!')
+        await telegram_app.send_message(sender_user_id, 'Audio downloader!')
 
         # Set the audio_path dynamically based on the downloaded file
         audio_file = next((f for f in os.listdir(current_directory) if f.lower().endswith(audio_extensions)), None)
@@ -65,7 +69,7 @@ async def main(event, current_directory):
             audio_path = os.path.join(current_directory, audio_file)
 
             try:
-                await app.send_file(sender_user_id, audio_path)
+                await telegram_app.send_file(sender_user_id, audio_path)
                 print('File sent successfully.')
             except Exception as e:
                 print(f"Error sending file: {str(e)}")
@@ -87,9 +91,21 @@ async def on_message_handler(event, current_directory):
                 file_path = os.path.join(current_directory, filename)
                 os.remove(file_path)
 
-@app.on(events.NewMessage)
+@telegram_app.on(events.NewMessage)
 async def event_handler(event):
     await on_message_handler(event, current_directory)
 
-if __name__ == '__main__':
-    asyncio.run(app.run_until_disconnected())
+# Flask routes
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/favicon.png')
+
+@app.route('/')
+@app.route('/home')
+def home():
+    return "Hello World"
+
+if __name__ == "__main__":
+    app.secret_key = 'ItIsASecret'
+    app.debug = True
+    telegram_app.loop.run_until_complete(telegram_app.run_until_disconnected())
