@@ -1,0 +1,701 @@
+1705421439499	geckodriver	INFO	Listening on 127.0.0.1:59231
+1705421442539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileCKuka9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421442832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705421442907	Marionette	INFO	Listening on port 59241
+WebDriver BiDi listening on ws://127.0.0.1:59232
+Read port: 59241
+1705421443104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59232/devtools/browser/f122e41f-29bb-4a4c-9f8b-2683167a6ee2
+console.warn: "Listener for event 'frame' did not return a promise."
+1705421472862	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450965"
+console.error: "Unable to find target with innerWindowId:6442450965"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:6442450965"
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1497
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+EventListener.handleEvent*p@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1406
+x/<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4129
+L@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:2134
+x@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:3900
+IH/bA.h.h.M@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:403:439
+md/f/q<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:93:428
+ed.prototype.invoke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1181
+wd@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:102:67
+ed.prototype.invoke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1181
+eb@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:576
+db@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:375
+Sd/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:110:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1181
+ed.prototype.ab@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1297
+JG/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:394:189
+setTimeout handler*F@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:89:370
+IG/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:393:279
+EventHandlerNonNull*Fc@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:86:1238
+Jc@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:87:368
+IG@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:393:225
+JG@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:394:163
+Mg/c<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:141:184
+ed.prototype.invoke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1181
+eb@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:576
+db@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:375
+Sd/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:110:384
+ed.prototype.invoke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:91:1181
+eb@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:576
+fb.prototype.F@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:75:1036
+Ke@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:118:38
+aA/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:361:355
+yf@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:128:222
+e@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:317:216
+Va/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:74:130
+Tv/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:318:408
+Rv/<@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:318:148
+Ow@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:321:806
+Yw@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:325:471
+Ux@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:340:272
+Xx@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:345:57
+Zx@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:346:43
+setTimeout handler*F@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:89:370
+ay@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:349:412
+@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:475:6
+@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:471:292
+@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:471:298
+@https://www.googletagmanager.com/gtm.js?id=GTM-5M97TMJ:478:3
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705421617170	Marionette	INFO	Stopped listening on port 59241
+Dynamically enable window occlusion 1
+1705421620141	geckodriver	INFO	Listening on 127.0.0.1:59408
+1705421623158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileQGDhko"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421623388	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705421623444	Marionette	INFO	Listening on port 59417
+WebDriver BiDi listening on ws://127.0.0.1:59409
+Read port: 59417
+1705421623589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59409/devtools/browser/d0c68f5e-ccd0-4df5-b8be-8debbf384ead
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0, line 20: Script terminated by timeout at:
+emit@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:8844
+i@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16640
+nrWrapper@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16567
+90047/h/<@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1481633
+h@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1481800
+a@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1328967
+getTabHandleContent@https://static-assets.highwebmedia.com/cachebust/788-prod-918231fc74b011784f02.js:1:45124
+adjustTab@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:497749
+refreshTabs@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:496778
+refreshTabs@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:499093
+possiblyIncrementUnread@https://static-assets.highwebmedia.com/cachebust/788-prod-918231fc74b011784f02.js:1:1706
+newChatMessage@https://static-assets.highwebmedia.com/cachebust/788-prod-918231fc74b011784f02.js:1:50469
+44788/he/</<@https://static-assets.highwebmedia.com/cachebust/788-prod-918231fc74b011784f02.js:1:47962
+callListener@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:864522
+fire@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:864250
+v@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:805769
+callback@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:753538
+56464/fetchHistory/</<@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:752351
+56464/fetchHistory/<@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:752072
+nrWrapper@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16507
+
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1705421653409	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://cdn1d-static-shared.phncdn.com/html5player/videoPlayer/es6player/7.2.2/desktop-player.min.js, line 2: Script terminated by timeout at:
+U@https://cdn1d-static-shared.phncdn.com/html5player/videoPlayer/es6player/7.2.2/desktop-player.min.js:2:135907
+pe@https://cdn1d-static-shared.phncdn.com/html5player/videoPlayer/es6player/7.2.2/desktop-player.min.js:2:141344
+fire@https://cdn1d-static-shared.phncdn.com/html5player/videoPlayer/es6player/7.2.2/desktop-player.min.js:2:143466
+pa/G/e.onloadstart@https://cdn1d-static-shared.phncdn.com/html5player/videoPlayer/es6player/7.2.2/desktop-player.min.js:2:358545
+
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 557: TypeError: browser is null
+1705421671594	Marionette	INFO	Stopped listening on port 59417
+Dynamically enable window occlusion 1
+1705421674706	geckodriver	INFO	Listening on 127.0.0.1:59563
+1705421677723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 64" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofilecKib76"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421677950	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705421678007	Marionette	INFO	Listening on port 59572
+WebDriver BiDi listening on ws://127.0.0.1:59564
+Read port: 59572
+1705421678150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59564/devtools/browser/8fc329d1-e740-4c19-9ac3-d80d700109e7
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1705421707972	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://xxxsave.net."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:161:17
+uA@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:134
+vA/<@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:111
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705421771149	Marionette	INFO	Stopped listening on port 59572
+Dynamically enable window occlusion 1
+1705421773612	geckodriver	INFO	Listening on 127.0.0.1:59735
+1705421776618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 36" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileYj0nMd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421776854	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705421776911	Marionette	INFO	Listening on port 59744
+WebDriver BiDi listening on ws://127.0.0.1:59736
+Read port: 59744
+1705421777040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59736/devtools/browser/4ac58f1a-461e-4b3a-8a0d-6ed88e572473
+JavaScript error: https://ei.phncdn.com/www-static/js/header.js?cache=2024011601, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://ei.phncdn.com/www-static/js/lib/jquery-ui-1.13.2.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://ei.phncdn.com/www-static/js/lib/jquery.slimscroll.min.js, line 16: ReferenceError: jQuery is not defined
+1705421783369	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://ei.phncdn.com/www-static/js/header.js?cache=2024011601, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://ei.phncdn.com/www-static/js/lib/jquery-ui-1.13.2.min.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://ei.phncdn.com/www-static/js/lib/jquery.slimscroll.min.js, line 16: ReferenceError: jQuery is not defined
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js, line 1: Script terminated by timeout at:
+tt@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:17432
+on@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:17911
+s@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:23032
+e@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:131013
+t.createMenu@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:134676
+t.createMenu@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:144250
+t.update@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:134383
+t.update@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:143437
+Be/o.dispatcher@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:13641
+je@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:14425
+trigger@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:19159
+e.triggerReady/<@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:27296
+e.setTimeout/i<@https://static-assets.highwebmedia.com/CACHE/js/output.7cefc4a3ceb9.js:1:30273
+nrWrapper@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16507
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/Ya-Cd6PbRI5ktAHEhm9JuKEu/recaptcha__en.js, line 201: Script terminated by timeout at:
+IW<@https://www.gstatic.com/recaptcha/releases/Ya-Cd6PbRI5ktAHEhm9JuKEu/recaptcha__en.js:201:372
+@https://www.gstatic.com/recaptcha/releases/Ya-Cd6PbRI5ktAHEhm9JuKEu/recaptcha__en.js:201:373
+@https://www.gstatic.com/recaptcha/releases/Ya-Cd6PbRI5ktAHEhm9JuKEu/recaptcha__en.js:1202:105
+
+1705421806876	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:161:17
+uA@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:134
+vA/<@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:111
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705421814825	Marionette	INFO	Stopped listening on port 59744
+Dynamically enable window occlusion 1
+1705421817178	geckodriver	INFO	Listening on 127.0.0.1:59876
+1705421820196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 77" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileI5eRi9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421820427	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705421820484	Marionette	INFO	Listening on port 59885
+WebDriver BiDi listening on ws://127.0.0.1:59877
+Read port: 59885
+1705421820609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59877/devtools/browser/ee59b873-6f78-43e9-9b0e-a601d2b9fcf1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js, line 1: Script terminated by timeout at:
+5188/$/n<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:69591
+$@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:69592
+5188/H</this.produce@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:72864
+81018/$/c/l/$<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:62178
+l@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:62074
+reducer@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:63264
+34607/c/<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:80292
+reducer@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:34317
+34607/c/<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:80292
+b@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:79406
+dispatch@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:55838
+62080/B/middleware/</<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:44853
+81018/a/</</<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:53768
+dispatch@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:80647
+62080/B/middleware/</<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:44735
+81018/a/</</<@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:53768
+i@https://static-assets.highwebmedia.com/cachebust/166-react-8d672f4dfbfb92683b0e.js:1:28595
+nrWrapper@https://chaturbate.com/esther_estrie/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16507
+
+JavaScript error: , line 0: InvalidStateError: Navigated away from page
+1705421850524	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js1705421988645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 08" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofilemBjz5i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705421988892	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705421988950	Marionette	INFO	Listening on port 60116
+WebDriver BiDi listening on ws://127.0.0.1:60108
+Read port: 60116
+1705421989108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60108/devtools/browser/5ce93af0-2239-4d4b-9337-866fce5e2da9
+1705422001725	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js, line 1: Script terminated by timeout at:
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:56
+32193@https://static-assets.highwebmedia.com/cachebust/195-prod-546cab1dc14f93fe13f2.js:1:143776
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+17802@https://static-assets.highwebmedia.com/cachebust/195-prod-546cab1dc14f93fe13f2.js:1:180834
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+4189@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:225497
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+66227@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1190753
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+54364@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1041780
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+16959@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1129644
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+88210@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:288705
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+83276@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1351434
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+47397@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:193573
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+22295@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:443985
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+52765@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:297199
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+35190@https://static-assets.highwebmedia.com/cachebust/62-prod-dd85f847cbd2759ac419.js:1:1296523
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+60812@https://static-assets.highwebmedia.com/cachebust/theatermode-prod-a9270e162c7403273c3e.js:1:25857
+o@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:133
+t@https://static-assets.highwebmedia.com/cachebust/theatermode-prod-a9270e162c7403273c3e.js:1:68481
+@https://static-assets.highwebmedia.com/cachebust/theatermode-prod-a9270e162c7403273c3e.js:1:68556
+o.O@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:421
+@https://static-assets.highwebmedia.com/cachebust/theatermode-prod-a9270e162c7403273c3e.js:1:68570
+r@https://static-assets.highwebmedia.com/cachebust/runtime-prod-4fccae848a0aacd5125e.js:1:1175
+@https://static-assets.highwebmedia.com/cachebust/theatermode-prod-a9270e162c7403273c3e.js:1:96
+
+JavaScript error: https://chaturbate.com/eternaldevotion/?join_overlay=1&tour=hr8m&campaign=f8kNT&disable_sound=0, line 903: ReferenceError: TS is not defined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705422018925	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: https://www.porndish.com/wp-content/plugins/media-ace/includes/gallery/js/gallery.js?ver=1.4.12, line 314: TypeError: $(...).on is not a function
+JavaScript error: https://www.porndish.com/wp-content/themes/bimber/js/global.js?ver=9.2.4, line 268: TypeError: $(...).on is not a function
+JavaScript error: https://www.porndish.com/wp-content/themes/bimber/js/players.js?ver=9.2.4, line 125: TypeError: $(...).on is not a function
+JavaScript error: https://www.porndish.com/wp-content/themes/bimber/js/single.js?ver=9.2.4, line 39: TypeError: $(...).on is not a function
+JavaScript error: https://www.porndish.com/assparade-thayana-babyy-bathed-in-cum/, line 1758: TypeError: this.$el.on is not a function
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: https://windscreenpresentiment.com/c7/f8/7e/c7f87e57fea51f5dd535d919407a0a0d.js, line 1: TypeError: can't redefine non-configurable property "rp"
+JavaScript warning: https://do0od.com/e/4ivlac2h5yq8tzbk9ma1wgktf03y23r, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: resource://devtools/server/actors/inspector/event-collector.js, line 530: debuggee 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js:2' would run
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:161:17
+uA@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:134
+vA/<@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:111
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705432085482	Marionette	INFO	Stopped listening on port 60116
+Dynamically enable window occlusion 1
+1705462821085	geckodriver	INFO	Listening on 127.0.0.1:64118
+1705462824112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 19" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofilexUBKOG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705462824431	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705462824533	Marionette	INFO	Listening on port 64127
+WebDriver BiDi listening on ws://127.0.0.1:64119
+Read port: 64127
+1705462824747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64119/devtools/browser/523ed059-9499-459f-a8ce-7176ad4c2364
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:456:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:420:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2197:33
+addAllSources@resource://devtools/server/actors/thread.js:1518:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+1705462854523	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705463144728	Marionette	INFO	Stopped listening on port 64127
+Dynamically enable window occlusion 1
+1705463147140	geckodriver	INFO	Listening on 127.0.0.1:64352
+1705463150144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 53" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofile26r6ab"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705463150385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705463150446	Marionette	INFO	Listening on port 64366
+Read port: 64366
+WebDriver BiDi listening on ws://127.0.0.1:64353
+1705463150511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64353/devtools/browser/fd470ec1-21b5-4eb9-9078-ede869e54218
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705463180403	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705463516579	Marionette	INFO	Stopped listening on port 64366
+Dynamically enable window occlusion 1
+1705463519456	geckodriver	INFO	Listening on 127.0.0.1:64620
+1705463522464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 21" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileHYsqNg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705463522718	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705463522776	Marionette	INFO	Listening on port 64629
+WebDriver BiDi listening on ws://127.0.0.1:64621
+Read port: 64629
+1705463522926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64621/devtools/browser/a62be4a4-055a-4546-a0cc-77324ca2063d
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705463552743	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:456:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:420:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2197:33
+addAllSources@resource://devtools/server/actors/thread.js:1518:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.m1705463757133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 63" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileh9N4xT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705463757408	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705463757470	Marionette	INFO	Listening on port 64771
+WebDriver BiDi listening on ws://127.0.0.1:64763
+Read port: 64771
+1705463757659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64763/devtools/browser/ae773927-4e26-4933-830d-b5d2c3d8b2bf
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705463787444	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:false'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:456:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:420:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2197:33
+addAllSources@resource://devtools/server/actors/thread.js:1518:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:49:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:540:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:442:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:false'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1705463864177	Marionette	INFO	Stopped listening on port 64771
+Dynamically enable window occlusion 1
+1705463946669	geckodriver	INFO	Listening on 127.0.0.1:64918
+1705463949688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 19" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileM9ejR6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705463949938	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705463950010	Marionette	INFO	Listening on port 64927
+WebDriver BiDi listening on ws://127.0.0.1:64919
+Read port: 64927
+1705463950164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64919/devtools/browser/d924f9d3-95c0-42c0-9b74-0e33dc54ff1a
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705463979955	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705464437947	Marionette	INFO	Stopped listening on port 64927
+Dynamically enable window occlusion 1
+1705464457009	geckodriver	INFO	Listening on 127.0.0.1:65205
+1705464460025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-popup-blocking" "-- ... 06" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofile9X4abq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705464460310	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705464460378	Marionette	INFO	Listening on port 65214
+WebDriver BiDi listening on ws://127.0.0.1:65206
+Read port: 65214
+1705464460549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:65206/devtools/browser/0131ffb1-5456-4240-bad0-30b6125d60ea
+JavaScript warning: https://c.adsco.re/, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1705464484172	Marionette	INFO	Stopped listening on port 65214
+JavaScript warning: https://www.displayvertising.com/png2-formly.umd.min.css, line 31: Script terminated by timeout at:
+_userActivationHandler@https://www.displayvertising.com/png2-formly.umd.min.css:31:283
+
+Dynamically enable window occlusion 1
+1705465747443	geckodriver	INFO	Listening on 127.0.0.1:49389
+1705465750460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-popup-blocking" "--remote-debugg ... 90" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileR1QW53"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705465750708	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-popup-blocking"
+1705465750765	Marionette	INFO	Listening on port 49398
+WebDriver BiDi listening on ws://127.0.0.1:49390
+Read port: 49398
+1705465750929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49390/devtools/browser/a25896c7-e3e9-4c3d-8f14-0b4167d35ca4
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+1705465782118	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705465817962	Marionette	INFO	Stopped listening on port 49398
+Dynamically enable window occlusion 1
+1705465878295	geckodriver	INFO	Listening on 127.0.0.1:49546
+1705465881313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofile7UaGf3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705465881552	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705465881613	Marionette	INFO	Listening on port 49555
+Read port: 49555
+WebDriver BiDi listening on ws://127.0.0.1:49547
+1705465881671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49547/devtools/browser/adbf073f-bc0b-45ee-902c-027a430b6663
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2001))
+1705465912158	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705466529117	Marionette	INFO	Stopped listening on port 49555
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49603" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofile4QSoub"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705465955467	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705465955522	Marionette	INFO	Listening on port 49611
+WebDriver BiDi listening on ws://127.0.0.1:49603
+Read port: 49611
+1705465955688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49603/devtools/browser/072f2ba4-9e36-4750-94d0-aadb706ac810
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1705465985586	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1705466551727	Marionette	INFO	Stopped listening on port 49611
+Dynamically enable window occlusion 1
+1705467146061	geckodriver	INFO	Listening on 127.0.0.1:50304
+1705467149076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileW4IU3u"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705467149303	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705467149356	Marionette	INFO	Listening on port 50313
+WebDriver BiDi listening on ws://127.0.0.1:50305
+Read port: 50313
+1705467149490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50305/devtools/browser/aa166d46-f054-4f62-9f3b-a46d4d817490
+console.error: ({})
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1705467176991	Marionette	INFO	Stopped listening on port 50313
+1705467180144	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50586" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofileMUdiMp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705467725166	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705467725228	Marionette	INFO	Listening on port 50593
+WebDriver BiDi listening on ws://127.0.0.1:50586
+Read port: 50593
+1705467725389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50586/devtools/browser/87251225-ba15-4daf-8a57-1da7995fbc21
+JavaScript warning: https://chaturbate.com/xiawa_xo/?tour=6hnx&campaign=f8kNT&disable_sound=0, line 20: Script terminated by timeout at:
+p@https://chaturbate.com/xiawa_xo/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:9577
+O/<@https://chaturbate.com/xiawa_xo/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:39237
+
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+[Child 24340, MediaDecoderStateMachine #1] WARNING: Decoder=1bb12cc5a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 24340, MediaDecoderStateMachine #1] WARNING: Decoder=1bb12cc5a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+1705467755191	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1705467798371	Marionette	INFO	Stopped listening on port 50593
+Dynamically enable window occlusion 1
+1705468603176	geckodriver	INFO	Listening on 127.0.0.1:50913
+1705468606179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50914" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\zaws\\AppData\\Local\\Temp\\rust_mozprofilelbQ2rW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705468606417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705468606474	Marionette	INFO	Listening on port 50921
+WebDriver BiDi listening on ws://127.0.0.1:50914
+Read port: 50921
+1705468606601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50914/devtools/browser/202e4616-99c3-4f30-bc7b-6c4677fcef3a
+JavaScript warning: https://unpkg.com/web-vitals/dist/web-vitals.iife.js, line 1: Script terminated by timeout at:
+v@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4063
+x/</<@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:4146
+m/webVitals@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1487
+n@https://unpkg.com/web-vitals/dist/web-vitals.iife.js:1:1358
+
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-assets.highwebmedia.com/CACHE/js/output.14a236a94bf9.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1705468636443	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js, line 2: Script terminated by timeout at:
+qD@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:12296
+sendX@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:3639
+a@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:2301
+2573/runHarvest/<@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:2415
+runHarvest@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:2401
+unload@https://nr.static.mmcdn.com/nr-spa-1.250.0.min.js:2:1455
+i/<@https://chaturbate.com/summergracexxx/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:15549
+nrWrapper@https://chaturbate.com/summergracexxx/?tour=6hnx&campaign=f8kNT&disable_sound=0:20:16507
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:161:17
+uA@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:134
+vA/<@https://www.googletagmanager.com/gtag/js?id=G-T7GRMY4Z9L:479:111
+
+1705468651935	Marionette	INFO	Stopped listening on port 50921
+Dynamically enable window occlusion 1
