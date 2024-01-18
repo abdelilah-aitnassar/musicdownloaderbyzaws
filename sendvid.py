@@ -109,4 +109,3 @@ if __name__ == "__main__":
     app.secret_key = 'ItIsASecret'
     app.debug = True
     telegram_app.loop.run_until_complete(telegram_app.run_until_disconnected())
-heroku logs --tail 
