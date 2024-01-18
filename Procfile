@@ -1,1 +1,1 @@
-web: python sendvid.py
+web: gunicorn sendvid:app
