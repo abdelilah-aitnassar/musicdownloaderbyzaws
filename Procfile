@@ -1,1 +1,1 @@
-web: gunicorn sendvid:app
+web: python sendvid.py $PORT
