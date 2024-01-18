@@ -17,7 +17,7 @@ for filename in os.listdir(current_directory):
         os.remove(file_path)
 
 # Function to download audio
-def download_audio(link):
+async def download_audio(link):
     # Remove existing audio files before downloading
     for filename in os.listdir(current_directory):
         if filename.lower().endswith(audio_extensions):
@@ -74,7 +74,7 @@ async def on_message_handler(event, current_directory):
     print('Message handler called.')
     if 'yout' in event.message.text.lower():
         print('Sending an audio...')
-        download_audio(event.message.text)
+        await download_audio(event.message.text)
         try:
             await main(event, current_directory)
         except Exception as e:
@@ -92,4 +92,4 @@ async def event_handler(event):
     await on_message_handler(event, current_directory)
 
 if __name__ == '__main__':
-    app.run_until_disconnected()
+    asyncio.run(app.run_until_disconnected())
