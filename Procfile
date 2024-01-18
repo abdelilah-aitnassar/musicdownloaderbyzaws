@@ -1,1 +1,1 @@
-web: gunicorn sendvid:app --log-file -
+web: gunicorn sendvid:app
