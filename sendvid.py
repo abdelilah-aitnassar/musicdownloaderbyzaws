@@ -92,4 +92,4 @@ async def on_message_handler(event, current_directory):
 
 with app:
     app.add_event_handler(lambda event, cd=current_directory: on_message_handler(event, cd), events.NewMessage())
-    app.run_until_disconnected()
+    app.run_until_disconnected(port=int(os.environ.get('PORT', 3000)))
